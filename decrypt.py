@@ -17,8 +17,8 @@ LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 message = message.upper()
 
-input2 = translate(message)
+output = translate(message)
 
-# Makes new decoded txt file
-print(output1)
-open('output1.txt', 'w').write(input2)
+# Prints output to new txt file
+print(output)
+open('Decrypted_file.txt', 'w').write(output)
