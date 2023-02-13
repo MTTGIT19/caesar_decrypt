@@ -20,5 +20,5 @@ message = message.upper()
 input2 = translate(message)
 
 # Makes new decoded txt file
-print(input2)
-open('input2.txt', 'w').write(input2)
+print(output1)
+open('output1.txt', 'w').write(input2)
